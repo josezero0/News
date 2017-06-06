@@ -32,7 +32,7 @@ function createData(jsonObject) {
         title.append($('<br>'));
         title.append($('<small>', {text: noticia.datetime}));
         caption.append(title);
-        caption.append(noticia.description)
+        caption.append(noticia.description);
         thumbnail.append(img);
         thumbnail.append(caption);
         thumbnail.appendTo($('#news'));
