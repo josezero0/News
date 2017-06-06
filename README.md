@@ -16,9 +16,13 @@ Las news1.html y news2.html incluyen las 2 últimas noticias (precargadas) del h
 
 ## Versión móvil ( max-width = 767px )
 
+![alt mobile.jpg](https://github.com/josezero0/News/blob/master/mobile.jpg)
+
 La versión móvil incluye publicidad con 90px de alto en la parte baja de la pantalla que siempre es visible.
 
 ## Versión escritorio ( min-width = 768px )
+
+![alt desktop.jpg](https://github.com/josezero0/News/blob/master/desktop.jpg)
 
 La versión de escritorio incluye publicidad a la derecha de la pantalla con 300px de ancho. A medida que se vaya haciendo scroll la publicidad también hará scroll.
 
