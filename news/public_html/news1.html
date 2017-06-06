@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="favicon.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/affix.js"></script>
+        <script src="js/mecanografia.js"></script>
+        <title>Code Bit | News</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Code Bit News: KeySniffer, keylogger para linux">
+        <meta property="og:site_name" content="Code Bit">
+        <meta property="og:url" content="news1.html">
+        <meta property="og:title" content="Code Bit | News | KeySniffer, keylogger para linux">
+        <meta property="og:image" content="img/n1-big.jpg">
+        <meta property="og:description" content="Code Bit News: KeySniffer, keylogger para linux">
+    </head>
+    <body>
+        <div id="body">
+            <div class="jumbotron" id="header">
+                <div class="container">
+                    <img src="img/logo.jpg" alt="logo" class="img-responsive">
+                    <h3 class="text-center roboto-mono color-green">.: <span id="mecano"></span> :.</h3>
+                </div>
+            </div>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand roboto-mono">CODE BIT <span class="glyphicon glyphicon-send"></span> NEWS</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid" id="container-table">
+                <div id="container-news">
+                    <div class="thumbnail box-shadow">
+                        <img src="img/n1-big.jpg" alt="KeySniffer, keylogger para linux" class="img-responsive">
+                        <div class="caption">
+                            <h3>KeySniffer, keylogger para linux<br><small>25 MAYO, 2017, 9:17</small></h3>
+                            <br>
+                            <p>Keysniffer es un Keylogger que funciona perfectamente en Linux. Fue escrito originalmente para teclados US (como el de las laptops).</p>
+                            <p>Captura todas las teclas pulsadas por el usuario de la PC, se pueden ver todos los keycodes en: <mark>/usr/include/linux/input-event-codes.h</mark></p>
+                            <p>Los logs se almacenan en debugfs y solo el root o sudoers pueden ver el log. El módulo permanece camuflajeado en algún módulo del kernel para evitar ser identificado.</p>
+                            <h3>Compilación</h3>
+                            <p>Lo primero que hay que hacer, es clonar el repositorio de github y ejecutar:</p>
+                            <pre class="box-shadow">$ make</pre>
+                            <h3>Uso</h3>
+                            <p>Para insertar el módulo en el kernel, ejecutar:</p>
+                            <pre class="box-shadow">$ sudo insmod kisni.ko</pre>
+                            <p>Para ver las teeclas presionadas ejecutar:</p>
+                            <pre class="box-shadow">$ sudo cat |<br>/sys/kernel/debug/kisni/keys<br>m<br>o<br>d<br>i<br>n<br>f<br>o<br>k<br>i<br>s<br>n<br>i<br>_ENTER_<br>_UP_<br>_TAB_<br>_TAB_<br>k<br>_TAB_<br>_ENTER_<br>_ENTER_</pre>
+                            <p>Para guardar el log en hexadecimal keycodes ejecutar:</p>
+                            <pre class="box-shadow">$ sudo insmod kisni.ko |<br>codes=1<br>// Type something<br>$ sudo cat |<br>/sys/kernel/debug/kisni/keys<br>23 0<br>12 0<br>26 0<br>26 0<br>18 0<br>39 0<br>2a 0<br>2a 1<br>2a 1<br>11 1<br>18 0<br>13 0<br>26 0<br>20 0<br>2a 0<br>2a 1<br>2a 1<br>2 1<br>1c 0<br>1f 0<br>16 0<br>20 0<br>18 0<br>39 0<br>2e 0<br>1e 0<br>14 0<br>6a 0<br>1c 0</pre>
+                            <p>Para guardar el log en decimal ejecutar:</p>
+                            <pre class="box-shadow">$ sudo insmod kisni.ko |<br>codes=2</pre>
+                            <p>Para limpiar el log ejecutar:</p>
+                            <pre class="box-shadow">$ sudo rmmod kisni</pre>
+                            <br>
+                            <p>Github: <a href="https://github.com/jarun/keysniffer">https://github.com/jarun/keysniffer</a></p>
+                            <br>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="//www.youtube.com/embed/WqkmGG0biXc"></iframe>
+                            </div>
+                            <br>
+                            <p><b>Fuente original:</b> <a href="https://blog.underc0de.org/keysniffer-keylogger-linux/">blog.underc0de.org</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="p-desktop">
+                    <img src="img/publicidad-D.jpg" alt="publicidad" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <!-- 90px publi -->
+        <div id="p-mobile">
+            <img src="img/publicidad-M.jpg" alt="publicidad" class="img-responsive">
+        </div>
+        <!-- Warning -->
+        <div class="alert alert-danger" id="no-more-news">
+            <p><b>¡AVISO!</b> Ya no hay más noticias que cargar.</p>
+        </div>
+    </body>
+</html>

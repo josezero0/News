@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Code Bit</title>
+        <link>http://www.codebit.com/index.html</link>
+        <description>Noticias del mundo virtual: Hacking, Seguridad y Anonimato</description>
+        <item>
+            <title>KeySniffer, keylogger para linux</title>
+            <link>http://www.codebit.com/news1.html</link>
+            <description>
+                <![CDATA[<p>KeySniffer es un keylogger que funciona perfectamente en linux. Fue escrito originalmente para teclados US.</p>
+                                <p>Captura todas las teclas pulsadas por el usuario de la PC, se pueden ver todos los keycodes en <mark>/usr/include/linux/input-event-codes.h</mark></p>
+                                <p>Los logs se almacenan en debugfs y solo el root o sudoers pueden ver el log. El módulo permanece camuflajeado en algún módulo del kernel para evitar ser identificado...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/n1-big.jpg</url>
+                <title>KeySniffer, keylogger para linux</title>
+                <link>http://www.codebit.com/news1.html</link>
+            </image>
+            <pubDate>25 MAYO, 2017, 9:17</pubDate>
+        </item>
+        <item>
+            <title>Kali Linux versión 2017.1</title>
+            <link>http://www.codebit.com/news2.html</link>
+            <description>
+                <![CDATA[<p>Ya está disponible para su descarga la última versión Kali Linux 2017.1. Kali Linux es famosa y utilizada para auditorias informáticas de seguridad. Vamos a tener un kernel actualizado, mayor compatibilidad de hardware, así como las últimas versiones de todas las herramientas que trae.</p>
+                                <p><b>Soporte para el chipset RTL8812AU</b></p>
+                                <p>Después de la petición de varios usuarios, decidieron implementar el soporte para el chipset RTL8812AU ya que estos controladores son parte del kernel estándar de Linux y se han modificado para permitir inyección de paquetes...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/n2-big.jpg</url>
+                <title>Kali Linux versión 2017.1</title>
+                <link>http://www.codebit.com/news2.html</link>
+            </image>
+            <pubDate>23 MAYO, 2017, 14:44</pubDate>
+        </item>
+        <item>
+            <title>0 Day, reset de contraseñas en wordpress</title>
+            <link>http://www.codebit.com/news3.html</link>
+            <description>
+                <![CDATA[<p>Recientemente, el 3 de mayo, se publicó una nueva vulnerabilidad (CVE-2017-8295) que afecta a todas las versiones de WordPress, incluyendo la última version 4.7.4, que puede permitir a un atacante resetear remotamente la contraseña y acceder con cualquier usuario.</p>
+                                <p>La vulnerabilidad está en la página de solicutud de restablecimiento de contraseña, concretamente en la posibilidad de modificar el contenido de la variable SERVER_NAME en la función wp-includes/pluggable.php...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/n3-big.jpg</url>
+                <title>0 Day, reset de contraseñas en wordpress</title>
+                <link>http://www.codebit.com/news3.html</link>
+            </image>
+            <pubDate>21 MAYO, 2017, 23:59</pubDate>
+        </item>
+        <item>
+            <title>Nuevo Intel Core i9</title>
+            <link>http://www.codebit.com/news4.html</link>
+            <description>
+                <![CDATA[<p>Hasta ahora Intel había mantenido tres niveles en sus procesadores Core, pero la introducción de los AMD Ryzen y su apuesta por más núcleos ha hecho que en Intel estén preparando una nueva alternativa.</p><p>Se trata de los Intel Core i9, que aparecerán en las próximas semanas en dos versiones con 10 y 12 núcleos de proceso y que también llegarán a contar con hasta 44 pistas PCIe para crear PCs de escritorio con unas prestaciones realmente fantásticas...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/x1-big.jpg</url>
+                <title>Nuevo Intel Core i9</title>
+                <link>http://www.codebit.com/news4.html</link>
+            </image>
+            <pubDate>14 MAYO, 2017, 13:43</pubDate>
+        </item>
+        <item>
+            <title>Ciberataque a grandes compañías [Mayo 2017]</title>
+            <link>http://www.codebit.com/news5.html</link>
+            <description>
+                <![CDATA[<p>La infección por ransomware en Telefónica y en otras grandes empresas a nivel mundial que ha hehco que todos los medios se agiten, ya que han surgido numerosos mensajes en las redes sociales con imágenes del ransom y correos de distintos departamentos rogando a los usuarios que apaguen inmediatamente sus equipos (incluso audios). La empresa de telefonía lanzó un comunicado al respecto:</p><p><b><i>Madrid, 12 de mayo de 2017.- A media mañana del día de hoy se ha detectado...</i></b></p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/x2-big.jpg</url>
+                <title>Ciberataque a grandes compañías [Mayo 2017]</title>
+                <link>http://www.codebit.com/news5.html</link>
+            </image>
+            <pubDate>12 MAYO, 2017, 21:19</pubDate>
+        </item>
+        <item>
+            <title>Phreaking: La historia del hacking telefónico</title>
+            <link>http://www.codebit.com/news6.html</link>
+            <description>
+                <![CDATA[<p>A finales de la década de 1950, en EE.UU. surgió un grupo de entusiastas que querían exprimir al máximo las líneas telefónicas. Para ello, utilizaron una especie de 'hacking telefónico' conocido por phreaking.</p><p>Por desgracia, las contribuciones de estos pioneros <b>no se contemplan de la misma forma</b> que las de personajes relevantes de la cultura hacker como 'The Mentor' o 'Paul Baran'. Y sin embargo, phreaks y hackers forman parte de la misma cultura. Es imposible entender el movimiento hacker sin el phreaking...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/x3-big.jpg</url>
+                <title>Phreaking: La historia del hacking telefónico</title>
+                <link>http://www.codebit.com/news6.html</link>
+            </image>
+            <pubDate>10 MAYO, 2017, 13:43</pubDate>
+        </item>
+        <item>
+            <title>Programador de Nissan copia código de Stack Overflow</title>
+            <link>http://www.codebit.com/news7.html</link>
+            <description>
+                <![CDATA[<p>Copiar y pegar código de internet es uno de los mayores secretos abiertos en la programación. Y confía en mí, todos lo hemos hecho alguna vez, aunque sea parte pequeña de código. Eso es porqué hay sitios de preguntas y respuestas como <b>StackOverflow.com</b>, donde cualquier desarrollador de aplicaciones puede publicar una pregunta relacionada con la programación y obtener una respuesta de un compañero programador.</p><p>Cualquier persona que puede o no haber copiado el ensayo de su mejor amigo en inglés en la escuela primaria...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/x4-big.jpg</url>
+                <title>Programador de Nissan copia código de Stack Overflow</title>
+                <link>http://www.codebit.com/news7.html</link>
+            </image>
+            <pubDate>5 MAYO, 2017, 21:19</pubDate>
+        </item>
+        <item>
+            <title>WikiLeaks desvela más malware de la CIA: AfterMidnight y Assassin</title>
+            <link>http://www.codebit.com/news8.html</link>
+            <description>
+                <![CDATA[<p>El portal WikiLeaks ha publicado este viernes otra tanda de documentos confidenciales de la CIA, revelando la infomación sobre dos 'software' maliciosos conocidos como 'AfterMidnight' y 'Assassin'. Esta publicación forma parte de la filtración a gran escala de archivos sobre armas cibernéticas de la CIA denominadas <b>'Vault 7'</b>.</p><p>WikiLeaks publica 'AfterMidnight' y 'Assassin', dos frameworks de malware de la CIA para la plataforma Microsoft Windows.</p><p>'AfterMidnight' permite a los operadores cargar y ejecutar cargas útiless de malware en un equipo destino de forma dinámica...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/x5-big.jpg</url>
+                <title>WikiLeaks desvela más malware de la CIA: AfterMidnight y Assassin</title>
+                <link>http://www.codebit.com/news8.html</link>
+            </image>
+            <pubDate>4 MAYO, 2017, 16:27</pubDate>
+        </item>
+        <item>
+            <title>HackerOne niega el acceso de FlexiSpy a su programa de recompensas</title>
+            <link>http://www.codebit.com/news9.html</link>
+            <description>
+                <![CDATA[<p>Después del reciente hackeo y filtración de la empresa de spyware llamada FlexiSpy, ellos mismos anunciaron vía Twitter su intención de unirse al Bug Bounty de HackerOne. Pero finalmente HackerOne ha denegado la petición argumentando su opinión en aspectos principalmente éticos. La plataforma dice que simplemente no está bien alojar un sistema que espían a niños y esposos.</p><p>Después de considerar los argumentos positivos y los negativos han decidido no incluír a la compañía en su programa de recompensas...</p>]]>
+            </description>
+            <image>
+                <url>http://www.codebit.com/img/x6-big.jpg</url>
+                <title>HackerOne niega el acceso de FlexiSpy a su programa de recompensas</title>
+                <link>http://www.codebit.com/news9.html</link>
+            </image>
+            <pubDate>3 MAYO, 2017, 17:42</pubDate>
+        </item>
+    </channel>
+</rss>
